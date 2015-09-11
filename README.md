@@ -23,4 +23,6 @@ In Project 1, you will build your own Utility app - a To-Do List. As you would e
     * Daily Stats View 
       * Displays the number of tasks completed in the past 24 hours
       * Ability to return to To-Do List Table View
+  * Optional
+    * Make the data persistent, so that when you close the application and reopen it, your preexisting tasks are restored.
 4. Add, commit, and push your modified file(s) to your forked remote repository.
