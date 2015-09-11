@@ -9,7 +9,8 @@ In Project 1, you will build your own Utility app - a To-Do List. As you would e
 ## Instructions
 1. Fork the assignment's repository from (https://github.com/iosdecal).
 2. Clone your forked repository to your local machine (the URL should contain YOUR_USERNAME/ios-decal-..).
-3. **Create a To-Do List app**
+3. Add an upstream remote that points to our original repository.
+4. **Create a To-Do List app**
   * Required
     * To-Do List Table View
       * Ability to visually mark a task as completed
@@ -25,4 +26,4 @@ In Project 1, you will build your own Utility app - a To-Do List. As you would e
       * Ability to return to To-Do List Table View
   * Optional
     * Make the data persistent, so that when you close the application and reopen it, your preexisting tasks are restored.
-4. Add, commit, and push your modified file(s) to your forked remote repository.
+5. Add, commit, and push your modified file(s) to your forked remote repository.
