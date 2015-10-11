@@ -21,6 +21,8 @@ class TableViewController: UITableViewController, ModifyTableDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NSTimer.scheduledTimerWithTimeInterval(24*60*60, target: self, selector: "removeTasks", userInfo:nil, repeats: true)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -101,6 +103,14 @@ class TableViewController: UITableViewController, ModifyTableDelegate {
     func deleteButtonPressed(sender:UIButton) {
         stringModel.removeAtIndex(sender.tag)
         boolModel.removeAtIndex(sender.tag)
+        self.tableView.reloadData()
+    }
+    
+    
+    func removeTasks() {
+        self.stringModel.removeAll()
+        self.boolModel.removeAll()
+        self.numCompleted = 0
         self.tableView.reloadData()
     }
 
