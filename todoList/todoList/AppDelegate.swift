@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  todoList
+//  ToDoList
 //
-//  Created by 李子腾 on 10/4/15.
+//  Created by 李子腾 on 10/10/15.
 //  Copyright © 2015 ZT. All rights reserved.
 //
 
